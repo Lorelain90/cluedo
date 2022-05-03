@@ -144,21 +144,21 @@ const charactersArray = [
 
 // Rooms' Collection
 const roomsArray = [
-    {name: DinningRoom},
-    {name: Conservatory},
-    {name: Kitchen},
-    {name: Study},
-    {name: Library},
-    {name: BilliardRoom},
-    {name: Lounge},
-    {name: Ballroom},
-    {name: Hall},
-    {name: Spa},
-    {name: LivingRoom},
-    {name: Observatory},
-    {name: Theater},
-    {name: GuestHouse},
-    {name: Patio},
+    {name: "Dinning Room"},
+    {name: "Conservatory"},
+    {name: "Kitchen"},
+    {name: "Study"},
+    {name: "Library"},
+    {name: "Billiard Room"},
+    {name: "Lounge"},
+    {name: "Ballroom"},
+    {name: "Hall"},
+    {name: "Spa"},
+    {name: "Living Room"},
+    {name: "Observatory"},
+    {name: "Theater"},
+    {name: "GuestHouse"},
+    {name: "Patio"},
 
 ];
 
@@ -174,3 +174,23 @@ const weaponsArray = [
     {name: "trophy", weight: 25},
     {name: "pistol", weight: 20}
 ];
+
+// Random Selector
+
+  function getRandom (charactersArray, roomsArray, weaponsArray) {
+    let index = Math.floor(Math.random() * barajar.length);
+    return Math.random();
+  }
+
+  // Crea el misterio
+
+  function pickMistery (barajar)
+  console.log(pickMistery [charactersArray]);
+
+  console.log(pickMistery [roomsArray]);
+  
+  console.log(pickMistery [weaponsArray]);
+
+
+  // Iteración 3 - <small>Descubrir el misterio</small>
+function revealMistery ()
