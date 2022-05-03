@@ -56,15 +56,15 @@ occupation:   Retired Football player
 
 // Weapons
 
-name: rope        ---   weight: 10
-name: knife       ---   weight: 8
-name: candlestick ---   weight: 2
-name: dumbbell    ---   weight: 30
-name: poison      ---   weight: 2
-name: axe         ---   weight: 15
-name: bat         ---   weight: 13
-name: trophy      ---   weight: 25
-name: pistol      ---   weight: 20
+name: rope - soga       ---   weight: 10 
+name: knife - puñal    ---   weight: 8
+name: candlestick - candelabro ---   weight: 2
+name: dumbbell - pesa   ---   weight: 30
+name: poison - veneno     ---   weight: 2
+name: axe - hacha        ---   weight: 15
+name: bat - murcielago         ---   weight: 13
+name: trophy - trofeo     ---   weight: 25
+name: pistol - pistola      ---   weight: 20
 
 // Rooms
 name: Dinning Room
