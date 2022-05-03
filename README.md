@@ -40,7 +40,7 @@ Hay nueve armas.
 
 ### Habitaciones
 
-El juego representa el plano de una mansión y describe 15  habitaciones diferentes.
+El juego representa el plano de una mansión y describe 15 habitaciones diferentes.
 
 ### Estructura de los datos
 
