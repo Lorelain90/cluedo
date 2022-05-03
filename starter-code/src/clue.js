@@ -178,13 +178,13 @@ const weaponsArray = [
 // Random Selector
 
   function getRandom (charactersArray, roomsArray, weaponsArray) {
-    let index = Math.floor(Math.random() * barajar.length);
+    let index = Math.floor(Math.random() * getRandom .length);
     return Math.random();
   }
 
   // Crea el misterio
 
-  function pickMistery (barajar)
+  function pickMistery (getRandom )
   console.log(pickMistery [charactersArray]);
 
   console.log(pickMistery [roomsArray]);
@@ -193,4 +193,5 @@ const weaponsArray = [
 
 
   // Iteración 3 - <small>Descubrir el misterio</small>
-function revealMistery ()
+
+    function revealMistery ()
