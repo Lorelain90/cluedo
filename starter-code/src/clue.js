@@ -86,7 +86,7 @@ name: Patio
 
 // Characters Collection
 const charactersArray = [
-    {mrGreen: {
+    {
         first_name:   "Jacob",
         last_name:    "Green",
         color:        "green",
@@ -94,8 +94,8 @@ const charactersArray = [
         age:          "45",
         image:        "https://pbs.twimg.com/profile_images/506787499331428352/65jTv2uC.jpeg",
         occupation:   "Entrepreneur",
-    }},
-        {drOrchid: {
+    },
+        {
         first_name:   "Doctor",
         last_name:    "Orchid",
         color:        "white",
@@ -103,8 +103,8 @@ const charactersArray = [
         age:          "26",
         image:        "http://www.radiotimes.com/uploads/images/Original/111967.jpg",
         ocupation:     "Scientist",
-    }},
-        {profPlum: { 
+    },
+        { 
         first_name:   "Victor",
         last_name:    "Plum",
         color:        "purple",
@@ -112,8 +112,8 @@ const charactersArray = [
         age:          "22",
         image:        "https://metrouk2.files.wordpress.com/2016/07/professor-plum.jpg",
         occupation:   "Designer",
-    }},
-        {missScarlet: { 
+    },
+        { 
         first_name:   "Kasandra",
         last_name:    "Scarlet",
         color:        "red",
@@ -121,8 +121,8 @@ const charactersArray = [
         age:          "31",
         image:        "https://metrouk2.files.wordpress.com/2016/07/miss-scarlett.jpg",
         occupation:   "Actor",
-    }},
-        {mrsPeacock: { 
+    },
+        { 
         first_name:   "Eleanor",
         last_name:    "Peacock",
         color:        "blue",
@@ -130,8 +130,8 @@ const charactersArray = [
         age:          "36",
         image:        "https://metrouk2.files.wordpress.com/2016/07/mrs-peacock.jpg",
         occupation:   "Socialité",
-    }},
-        {mrMustard: { 
+    },
+        { 
         first_name:   "Jack",
         last_name:    "Mustard",
         color:        "yellow",
@@ -140,7 +140,7 @@ const charactersArray = [
         image:        "https://metrouk2.files.wordpress.com/2016/07/colonel-mustard.jpg",
         occupation:   "Retired Football player",
 
-    }}];
+    }];
 
 // Rooms' Collection
 const roomsArray = [
@@ -177,21 +177,24 @@ const weaponsArray = [
 
 // Random Selector
 
-  function getRandom (charactersArray, roomsArray, weaponsArray) {
-    let index = Math.floor(Math.random() * getRandom .length);
-    return Math.random();
+  function randomSelector (array) {
+    let index = Math.floor(Math.random() * array.length);
+    return array [index];
   }
 
   // Crea el misterio
 
-  function pickMistery (getRandom )
-  console.log(pickMistery [charactersArray]);
+  function pickMistery (){
+    let character = randomSelector (charactersArray);
+    let weapon = randomSelector (weaponsArray);
+    let room = randomSelector (roomsArray);
+    return [character, weapon, room];
+ }
+    //let mistery = pickMistery ();
+    
+    // Iteración 3 - <small>Descubrir el misterio</small>
 
-  console.log(pickMistery [roomsArray]);
-  
-  console.log(pickMistery [weaponsArray]);
+    function revealMistery (mistery){
+        return `${mistery[0].first_name} ${mistery[0].last_name} killed Mr.Boddy using the ${mistery[1].name} in the ${mistery[2].name}!!!!`
+    }
 
-
-  // Iteración 3 - <small>Descubrir el misterio</small>
-
-    function revealMistery ()
